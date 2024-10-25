@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Ulang Tahun!</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- Container efek salju -->
+    <div id="snowflakes"></div>
+
+    <!-- Bagian konten yang akan muncul setelah alert -->
+    <div class="container" id="content" style="display: none;">
+        <h1>Selamat Ulang Tahun!</h1>
+        <p>Hari ini adalah hari istimewa untukmu!</p>
+        <img src="ulya.jpg" alt="Foto Ulang Tahun" class="foto-ulang-tahun">
+        <p class="pesan">selamat bertambah usia yaa<br>
+        perempuan cantik,perempuan cerdas,<br>perempuan baik.<br>
+        semoga keberkahan selalu menyertaimu<br>JANGAN LUPA BAHAGIA!!!!</p>
+        <div id="currentTime" class="time"></div>
+    </div>
+
+    <!-- Audio untuk lagu -->
+    <audio id="backgroundMusic" autoplay loop>
+        <source src="lagu.mp3" type="audio/mp3">
+        Browser Anda tidak mendukung pemutar audio.
+    </audio>
+    <script src="main.js"></script>
+</body>
+</html>
